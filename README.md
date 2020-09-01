@@ -9,7 +9,7 @@
 
 ---
 
- ##### **2 - Etapa: HttpClient, Injeção de Dependência, Observable, serviço, @Injectable, Ciclo de vida de um componente**
+ ##### **2 - Etapa: HttpClient, Injeção de Dependência, Observable, service, @Injectable, Ciclo de vida de um componente**
 
   1 - Hora de chamar uma API externa. Existe uma lib do Angular que pode te ajudar, use esta lib e faça a requisição para: ```http://localhost:3000/angelo/photos```.
   
@@ -29,16 +29,16 @@
 
 --- 
 
- ##### **4 - Etapa: Eventos no DOM, PIPE, Resolvers, RxJS, Debounce Pattern**
+ ##### **4 - Etapa: Eventos no DOM, PIPE, Resolvers, Debounce Pattern**
   1 - Crie um campo para consulta das fotos.
   
-  2 - Filtre as fotos pelo nome digitado no campo.
+  2 - Filtre as fotos pelo nome digitado no campo. Utilize um PIPE.
   
   3 - Após o filtro criado, crie uma validação que se caso não exisitir a foto digitada, mostrar na tela a mensagem "Status não encontrado!"
   
   4 - Organize seu código e não deixe que cada letra digitada no campo seja pesquisada. Use um pattern para resolver isso.
   
-  5 - Na página inicial exiba apenas as 12 primeiras fotos e adicione um botão para carregar mais.
+  5 - Na página inicial exiba apenas as 12 primeiras fotos e adicione um botão para carregar mais. Chame a API externa passando mais um parametro para que possa trazer o valor da próxima página. *Ex.:http://localhost:3000/{userName}/photos , {params: pageNumber}*
 
 
 
