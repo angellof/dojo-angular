@@ -3,13 +3,13 @@
 
 ---
 
- ### **1 - Etapa: Componentes, Modulos, Inbound propertie, Diretivas**
+ ##### **1 - Etapa: Componentes, Modulos, Inbound propertie, Diretivas**
 
   1 - Crie um componente e um módulo que seja referente a exibição de uma imagem.
 
 ---
 
- ### **2 - Etapa: HttpClient, Injeção de Dependência, Observable, serviço, @Injectable, Ciclo de vida de um componente**
+ ##### **2 - Etapa: HttpClient, Injeção de Dependência, Observable, serviço, @Injectable, Ciclo de vida de um componente**
 
   1 - Hora de chamar uma API externa. Existe uma lib do Angular que pode te ajudar, use esta lib e faça a requisição para: ```http://localhost:3000/angelo/photos```.
   
@@ -21,7 +21,7 @@
 
 ---
 
- ### **3 - Etapa: Single Page Aplication, BrowserModule, CommonModule, Rotas e ActivatedRoute**
+ ##### **3 - Etapa: Single Page Aplication, BrowserModule, CommonModule, Rotas e ActivatedRoute**
  
   1 - Crie uma rota nova para acessar as imagens. *Ex.: http://localhost:4200/images/list*
 
@@ -29,7 +29,7 @@
 
 --- 
 
- ### **4 - Etapa: Eventos no DOM, PIPE, Resolvers, RxJS, Debounce Pattern**
+ ##### **4 - Etapa: Eventos no DOM, PIPE, Resolvers, RxJS, Debounce Pattern**
   1 - Crie um campo para consulta das fotos.
   
   2 - Filtre as fotos pelo nome digitado no campo.
