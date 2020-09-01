@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Tech Talk - Dojo Angular Js';
+  title: string = 'Tech Talk - Dojo Angular Js';
 
   imageUrlTest: string = 'https://cdn.pixabay.com/photo/2014/03/29/09/17/cat-300572__340.jpg'
 
