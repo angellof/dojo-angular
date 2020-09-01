@@ -10,6 +10,7 @@ export class AppComponent {
 
   imageUrlTest: string = 'https://cdn.pixabay.com/photo/2014/03/29/09/17/cat-300572__340.jpg'
 
+  
   imagesList = ['https://cdn.pixabay.com/photo/2014/03/29/09/17/cat-300572__340.jpg',
                 'https://cdn.pixabay.com/photo/2014/03/29/09/17/cat-300572__340.jpg',
                 'https://cdn.pixabay.com/photo/2014/03/29/09/17/cat-300572__340.jpg']
